@@ -12,6 +12,8 @@ where $\theta$ and $\eta$ are the amplitudes of the rotation and the squeezing. 
 
 $$ |\psi_{n_C}\rangle = \left(\prod_{i=1}^{n_C}S_{z}(\eta_i)\,R_{y}(\theta_i)\right)|\psi_0\rangle. $$
 
+with $\theta_1=0$.
+
 ## File structure
 
 In the Data folder, you will find the files storing the parameters $\{\theta_i,\,i=2,3,\dots,n_C\}$ and $\{\eta_i,\,i=1,2,\dots,n_C\}$ which maximise the anticoherence measures of spin states obtained via numerical optimisation. There is two types of file structure :
