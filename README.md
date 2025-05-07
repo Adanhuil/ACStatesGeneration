@@ -5,7 +5,9 @@ In this repository, you will find the parameters which are necessary to generate
 ## Description of the protocol
 
 Starting from a coherent state pointing in the $x$ direction, our protocol consists of a sequence of $n_{C}$ cycles, where each cycle (except the first) applies a rotation around the $y$-axis followed by a squeezing operation along $z$. The corresponding operations are described by the operators
+
 $$ R_{y}(\theta) = e^{-iJ_{y}\theta}, \qquad S_{z}(\eta) = e^{-iJ_{z}^{2}\eta} $$
+
 where $\theta$ and $\eta$ are the amplitudes of the rotation and the squeezing. Note that in the first cycle only the squeezing operation is applied. The final state of the system after $n_C$ cycles is then given by
 
 $$ |\psi_{n_C}\rangle = \left(\prod_{i=1}^{n_C}S_{z}(\eta_i)\,R_{y}(\theta_i)\right)|\psi_0\rangle. $$
