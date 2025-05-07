@@ -16,7 +16,7 @@ with $\theta_1=0$.
 
 ## File structure
 
-In the Data folder, you will find the files storing the parameters $\{\theta_i,\,i=2,3,\dots,n_C\}$ and $\{\eta_i,\,i=1,2,\dots,n_C\}$ which maximise the anticoherence measures of spin states obtained via numerical optimisation. There is two types of file structure :
+In the Data folder, you will find the files storing the parameters ${\theta_i,i=2,3,\dots,n_C}$ and ${\eta_i,i=1,2,\dots,n_C}$ which maximise the anticoherence measures of spin states obtained via numerical optimisation. There is two types of file structure :
 
 - Analytical parameters : For each number of qubits $N=2j$ (first column) are given the squeezing parameters $\eta_2$ and $\eta_3$ (second and third columns) as explained in our paper.
 - Other files : For a given number of cycles (first column), we give the maximal anticoherence measure we obtained (second column) followed by the $n_C-1$ rotation parameters $\theta$ and then the $n_C$ squeezing parameters $\eta$. The files denoted with "OptimisedSqueezing" have the same structure and are obtained from an optimisation on the total squeezing duration.
