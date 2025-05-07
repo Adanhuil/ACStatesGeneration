@@ -14,9 +14,13 @@ $$ |\psi_{n_C}\rangle = \left(\prod_{i=1}^{n_C}S_{z}(\eta_i)\,R_{y}(\theta_i)\ri
 
 with $\theta_1=0$.
 
-## File structure
+## Data file structure
 
 In the Data folder, you will find the files storing the parameters $\theta_i$ and $\eta_i$ ($i=1,2,\dots,n_C$) which maximise the anticoherence measures of spin states obtained via numerical optimisation. There is two types of file structure :
 
 - Analytical parameters : For each number of qubits $N=2j$ (first column) are given the squeezing parameters $\eta_2$ and $\eta_3$ (second and third columns) as explained in our paper.
 - Other files : For a given number of cycles (first column), we give the maximal anticoherence measure we obtained (second column) followed by the $n_C-1$ rotation parameters $\theta$ and then the $n_C$ squeezing parameters $\eta$. The files preceded by "OptimisedSqueezing" have the same structure and are obtained from an optimisation on the total squeezing duration.
+
+## Julia code
+
+In the Julia folder, you will find the functions necessary to optimise the protocol in order to generate the anticoherence measure. An example of use is given in ACStatesGeneration.jl.
